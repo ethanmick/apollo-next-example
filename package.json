@@ -7,11 +7,20 @@
     "type-check": "tsc"
   },
   "dependencies": {
+    "@apollo/client": "3.7.0",
+    "apollo-server-micro": "3.10.2",
+    "graphql": "16.6.0",
+    "micro": "9.4.1",
+    "micro-cors": "0.1.1",
     "next": "latest",
     "react": "^17.0.2",
     "react-dom": "^17.0.2"
   },
   "devDependencies": {
+    "@graphql-codegen/cli": "2.13.5",
+    "@graphql-codegen/typed-document-node": "2.3.3",
+    "@graphql-codegen/typescript": "2.7.3",
+    "@graphql-codegen/typescript-operations": "2.5.3",
     "@types/node": "^12.12.21",
     "@types/react": "^17.0.2",
     "@types/react-dom": "^17.0.1",
